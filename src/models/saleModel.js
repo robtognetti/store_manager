@@ -1,5 +1,5 @@
 const connection = require('./connection');
-// auxilio monitoria e marcos v, porem ainda tenho duvidas na implementacao //
+// auxilio monitoria e marcos, porem ainda tenho duvidas na implementacao //
 const addSale = async (sales) => {
   const query = 'INSERT INTO sales (date) values (NOW())';
   const [sale] = await connection.execute(query);
