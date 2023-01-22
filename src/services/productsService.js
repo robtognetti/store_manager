@@ -23,6 +23,7 @@ const addProduct = async (name) => {
 //   if (affectedRows) {
 //     return { id };
 //   }
+//
 //   return { type: "NOT_FOUND", message: "Product not found" };
 // };
 // auxilio mentoria danielle, ernani ajudou na refatoracao
