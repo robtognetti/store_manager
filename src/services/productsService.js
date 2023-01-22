@@ -19,13 +19,9 @@ const addProduct = async (name) => {
 // ja que alterando o return a mesma deveria funcionar. ?
 // const deleteProduct = async (id) => {
 //   const affectedRows = await productsModel.deleteProduct(id);
-
 //   if (affectedRows) {
 //     return { id };
-//   }
-//
 //   return { type: "NOT_FOUND", message: "Product not found" };
-// };
 // auxilio mentoria danielle, ernani ajudou na refatoracao
 const deleteProduct = async (id) => {
   const [product] = await productsModel.getById(id);
