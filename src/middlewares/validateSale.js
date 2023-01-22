@@ -14,8 +14,8 @@ const idSales = async (sales) => {
     }
   }
 };
-//   const saleId = await productModels.maxProduct(sales);
-//   if (!saleId.length) {
+//   const idSales = await productModels.maxProduct(sales);
+//   if (!idSales.length) {
 //     return { status: 404, message: 'Product not found' };
 //   }
 // };
