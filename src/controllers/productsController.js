@@ -53,7 +53,10 @@ const addProduct = async (req, res) => {
   const id = await productsService.addProduct(name);
   if (id.status) return res.status(id.status).send(id.response);
   return res.status(201).send(
-    { id, name },
+    {
+      id,
+      name,
+    },
   );
 };
 
